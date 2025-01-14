@@ -1,0 +1,23 @@
+{
+  "name": "stink",
+  "version": "0.0.1",
+  "description": "Playground code try to test code cleanliness",
+  "keywords": [
+    "clean"
+  ],
+  "homepage": "https://github.com/hamdongunner/stink#readme",
+  "bugs": {
+    "url": "https://github.com/hamdongunner/stink/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdongunner/stink.git"
+  },
+  "license": "ISC",
+  "author": "hamdongunner",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

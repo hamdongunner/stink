@@ -1,27 +1,33 @@
 {
-  "name": "stink",
-  "version": "0.0.1",
-  "description": "Playground code try to test code cleanliness",
-  "keywords": [
-    "clean"
-  ],
-  "homepage": "https://github.com/hamdongunner/stink#readme",
-  "bugs": {
-    "url": "https://github.com/hamdongunner/stink/issues"
+  "name": "code-stink",
+  "version": "1.0.0",
+  "description": "A TypeScript code quality analyzer that measures the 'stinkiness' of your code",
+  "main": "dist/index.js",
+  "bin": {
+    "code-stink": "dist/cli.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamdongunner/stink.git"
-  },
-  "license": "ISC",
-  "author": "hamdongunner",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "analyze": "ts-node cli.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "code-quality",
+    "typescript",
+    "static-analysis",
+    "clean-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
   "devDependencies": {
-    "@types/node": "^22.10.6",
-    "typescript": "^5.7.3"
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
